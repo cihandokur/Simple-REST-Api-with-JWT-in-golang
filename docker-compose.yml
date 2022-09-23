@@ -1,4 +1,4 @@
-version: '3.9'
+version: '3.8'
 
 name: devlab
 
@@ -13,9 +13,9 @@ services:
       - 9090:9090
     links:
       - postgres:postgres
-    
+    command: /bin/sh -c 'while ! nc -z postgres 5432; do sleep 1; done; /app/devlab'
   postgres:
-    image: postgres:latest
+    image: postgres:14
     deploy:
       restart_policy:
         condition: on-failure

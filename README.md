@@ -3,7 +3,7 @@ In this repository if you will find an example of REST Api written in Go languag
 You can also find simple test methods.
 
 ## Technologies
-    - go 1.18
+    - go 1.19
     - postgres
     - docker
 
