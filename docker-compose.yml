@@ -1,6 +1,6 @@
 version: '3.8'
 
-name: devlab
+name: simple_rest_api
 
 services:
   api:
@@ -13,9 +13,9 @@ services:
       - 9090:9090
     links:
       - postgres:postgres
-    command: /bin/sh -c 'while ! nc -z postgres 5432; do sleep 1; done; /app/devlab'
+    command: /bin/sh -c 'while ! nc -z postgres 5432; do sleep 1; done; /app/simple_rest_api'
   postgres:
-    image: postgres:14
+    image: postgres:14.6-alpine3.17
     deploy:
       restart_policy:
         condition: on-failure
@@ -35,8 +35,8 @@ services:
       - postgres
     environment:
       PGADMIN_LISTEN_PORT: "5436"
-      PGADMIN_DEFAULT_EMAIL: dev@devlab.dev
-      PGADMIN_DEFAULT_PASSWORD: d3vl@b
+      PGADMIN_DEFAULT_EMAIL: dev@simplerestapi.dev
+      PGADMIN_DEFAULT_PASSWORD: pass2word
     ports:
       - "5436:5436"
     links:

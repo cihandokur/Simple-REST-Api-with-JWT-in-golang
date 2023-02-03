@@ -3,8 +3,8 @@ package controller_test
 import (
 	"net/http"
 
-	"github.com/cihandokur/devlab/model"
-	"github.com/cihandokur/devlab/test"
+	"github.com/cihandokur/simple_rest_api/model"
+	"github.com/cihandokur/simple_rest_api/test"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 	. "github.com/onsi/gomega/gstruct"

@@ -3,8 +3,8 @@ package controller_test
 import (
 	"testing"
 
-	"github.com/cihandokur/devlab/config"
-	"github.com/cihandokur/devlab/db"
+	"github.com/cihandokur/simple_rest_api/config"
+	"github.com/cihandokur/simple_rest_api/db"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

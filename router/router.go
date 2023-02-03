@@ -3,8 +3,8 @@ package router
 import (
 	"net/http"
 
-	"github.com/cihandokur/devlab/controller"
-	"github.com/cihandokur/devlab/middleware"
+	"github.com/cihandokur/simple_rest_api/controller"
+	"github.com/cihandokur/simple_rest_api/middleware"
 	"github.com/gorilla/mux"
 )
 

@@ -6,9 +6,9 @@ import (
 	"log"
 	"time"
 
-	"github.com/cihandokur/devlab/db"
-	"github.com/cihandokur/devlab/helper"
-	"github.com/cihandokur/devlab/model"
+	"github.com/cihandokur/simple_rest_api/db"
+	"github.com/cihandokur/simple_rest_api/helper"
+	"github.com/cihandokur/simple_rest_api/model"
 	"gorm.io/gorm"
 )
 

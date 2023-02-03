@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/cihandokur/devlab/config"
-	"github.com/cihandokur/devlab/model"
+	"github.com/cihandokur/simple_rest_api/config"
+	"github.com/cihandokur/simple_rest_api/model"
 
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )
 
-//DB Instance
+// DB Instance
 var DB *gorm.DB
 
 func New() {

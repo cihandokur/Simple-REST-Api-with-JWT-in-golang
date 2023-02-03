@@ -1,4 +1,4 @@
-module github.com/cihandokur/devlab
+module github.com/cihandokur/simple_rest_api
 
 go 1.19
 

@@ -3,7 +3,7 @@ package test
 import (
 	"fmt"
 
-	"github.com/cihandokur/devlab/db"
+	"github.com/cihandokur/simple_rest_api/db"
 	. "github.com/onsi/gomega"
 )
 

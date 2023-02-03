@@ -4,11 +4,11 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/cihandokur/devlab/config"
-	"github.com/cihandokur/devlab/helper"
-	"github.com/cihandokur/devlab/middleware"
-	"github.com/cihandokur/devlab/model"
-	"github.com/cihandokur/devlab/service"
+	"github.com/cihandokur/simple_rest_api/config"
+	"github.com/cihandokur/simple_rest_api/helper"
+	"github.com/cihandokur/simple_rest_api/middleware"
+	"github.com/cihandokur/simple_rest_api/model"
+	"github.com/cihandokur/simple_rest_api/service"
 )
 
 type UserController struct{}

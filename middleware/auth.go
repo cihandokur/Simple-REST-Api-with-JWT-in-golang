@@ -3,8 +3,8 @@ package middleware
 import (
 	"net/http"
 
-	"github.com/cihandokur/devlab/config"
-	"github.com/cihandokur/devlab/helper"
+	"github.com/cihandokur/simple_rest_api/config"
+	"github.com/cihandokur/simple_rest_api/helper"
 )
 
 var apiError = ApiError{}

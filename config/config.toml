@@ -1,9 +1,9 @@
 [postgres]
 host = "postgres"
 port = "5432"
-database = "devlab"
-user = "devlab"
-pass = "p@s2word"
+database = "simple_rest_api"
+user = "simple_rest_api"
+pass = "pass2word"
 localDataPath = "/Volumes/Storage/sql/data"
 
 [Jwt]

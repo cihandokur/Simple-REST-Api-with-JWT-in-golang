@@ -5,9 +5,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/cihandokur/devlab/config"
-	"github.com/cihandokur/devlab/db"
-	"github.com/cihandokur/devlab/router"
+	"github.com/cihandokur/simple_rest_api/config"
+	"github.com/cihandokur/simple_rest_api/db"
+	"github.com/cihandokur/simple_rest_api/router"
 )
 
 func main() {

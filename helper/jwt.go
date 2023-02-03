@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cihandokur/devlab/config"
+	"github.com/cihandokur/simple_rest_api/config"
 	jwt "github.com/golang-jwt/jwt/v4"
 )
 

@@ -3,7 +3,7 @@ package model
 import (
 	"fmt"
 
-	"github.com/cihandokur/devlab/helper"
+	"github.com/cihandokur/simple_rest_api/helper"
 )
 
 type SingUp struct {

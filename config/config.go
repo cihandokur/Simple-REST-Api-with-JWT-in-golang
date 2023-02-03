@@ -52,7 +52,7 @@ func LoadConfiguration() error {
 	viper.AddConfigPath("./app/config")
 	viper.AddConfigPath("./config")
 	viper.AddConfigPath("./")
-	viper.AddConfigPath("/go/bin/devlab")
+	viper.AddConfigPath("/go/bin/simple_rest_api")
 
 	viper.AllowEmptyEnv(true)
 
